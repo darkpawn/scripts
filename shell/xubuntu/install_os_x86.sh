@@ -315,13 +315,13 @@ $INSTALL smplayer exaile gimp
 #### PAQUETS OFFICE ####
 ########################
 echo "Installation des paquets office ..."
-$INSTALL libreoffice libreoffice-l10n-fr
+$INSTALL gedit gedit-plugins libreoffice libreoffice-l10n-fr
 
 ########################
 #### PAQUETS UTILES ####
 ########################
 echo "Installation des utilitaires ..."
-$INSTALL git openvpn keepassx rdesktop wireshark glances iotop iftop tshark bwm-ng tmux homebank
+$INSTALL git openvpn keepassx rdesktop wireshark glances iotop iftop tshark bwm-ng tmux homebank keychain cpufrequtils hddtemp smartmontools
 
 #####################
 #### VIEW CLIENT ####
